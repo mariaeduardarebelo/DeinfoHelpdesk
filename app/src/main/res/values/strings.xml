@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">DeInfo - Helpdesk</string>
+    <string name="nomeText">Nome:</string>
+    <string name="cursoBtn">SELECIONAR CURSO</string>
+    <string name="cursoText">Curso:</string>
+    <string name="questaoText">Questão</string>
+    <string name="estudanteCheck">Estudante</string>
+    <string name="sendBtn">Enviar</string>
+    <string name="bccRadio">BCC - Bacharelado em Ciência da Computação</string>
+    <string name="bsiRadio">BSI - Bacharelado em Sistemas de Informação</string>
+    <string name="lcRadio">LC - Licenciatura em Computaçao</string>
+    <string name="confirmBtn">CONFIRMAR</string>
+</resources>

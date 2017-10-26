@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.merdc.deinfohelpdesk.CursoActivity">
+
+    <Button
+        android:id="@+id/confirmBtn"
+        android:layout_width="118dp"
+        android:layout_height="52dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="258dp"
+        android:text="@string/confirmBtn"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <RadioGroup
+        android:layout_width="332dp"
+        android:layout_height="137dp"
+        android:layout_marginTop="62dp"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent" >
+
+        <RadioButton
+            android:id="@+id/bccradio"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:text="@string/bccRadio" />
+
+        <RadioButton
+            android:id="@+id/bsiRadio"
+            android:layout_width="match_parent"
+            android:layout_height="46dp"
+            android:text="@string/bsiRadio" />
+
+        <RadioButton
+            android:id="@+id/lcRadio"
+            android:layout_width="339dp"
+            android:layout_height="42dp"
+            android:text="@string/lcRadio" />
+    </RadioGroup>
+
+</android.support.constraint.ConstraintLayout>
